@@ -1,0 +1,6 @@
+from: 'markdown'
+to: 'docx'
+toc: true
+highlight-style: 'zenburn'
+filters:
+  - 'extensions/pagebreak.lua'
