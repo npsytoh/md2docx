@@ -1,6 +1,17 @@
 from: 'markdown'
 to: 'docx'
-toc: true
+reference-doc: 'templates/custom-reference.docx'
 highlight-style: 'zenburn'
 filters:
   - 'extensions/pagebreak.lua'
+# toc: true
+# shift-heading-level-by: -1
+
+# metadata:
+#   title: ''
+#   subtitle: ''
+#   author: ''
+#   date: ''
+#   subject: ''
+#   description: ''
+#   toc-title: ''
